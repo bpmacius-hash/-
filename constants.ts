@@ -1,0 +1,40 @@
+import { Question, Option } from './types';
+
+export const QUESTIONS: Question[] = [
+  { id: 1, text: "很多人欣赏我的才干。", dimension: "Self-Efficacy", isReverse: false },
+  { id: 2, text: "我不爱生气。", dimension: "Resilience", isReverse: false },
+  { id: 3, text: "我的见解和能力超过一般人。", dimension: "Self-Efficacy", isReverse: false },
+  { id: 4, text: "遇到挫折时，我能很快地恢复过来。", dimension: "Resilience", isReverse: false },
+  { id: 5, text: "我对自己的能力很有信心。", dimension: "Self-Efficacy", isReverse: false },
+  { id: 6, text: "生活中的不愉快，我很少在意。", dimension: "Resilience", isReverse: false },
+  { id: 7, text: "我总是能出色地完成任务。", dimension: "Self-Efficacy", isReverse: false },
+  { id: 8, text: "糟糕的经历会让我郁闷很久。", dimension: "Resilience", isReverse: true },
+  { id: 9, text: "面对困难时我会很冷静地寻求解决的方法。", dimension: "Self-Efficacy", isReverse: false },
+  { id: 10, text: "我觉得自己活得很累。", dimension: "Resilience", isReverse: true },
+  { id: 11, text: "我乐于承担困难和有挑战性的工作。", dimension: "Self-Efficacy", isReverse: false },
+  { id: 12, text: "不顺心的时候，我容易垂头丧气。", dimension: "Resilience", isReverse: true },
+  { id: 13, text: "身处逆境时，我会积极尝试不同的策略。", dimension: "Self-Efficacy", isReverse: false },
+  { id: 14, text: "压力大的时候，我会吃不好、睡不香。", dimension: "Resilience", isReverse: true },
+  { id: 15, text: "我积极地学习和工作，以实现自己的理想。", dimension: "Hope", isReverse: false },
+  { id: 16, text: "情况不确定时，我总是预期会有好的结果。", dimension: "Optimism", isReverse: false },
+  { id: 17, text: "我正在为实现自己的目标而努力。", dimension: "Hope", isReverse: false },
+  { id: 18, text: "我总是看到事物好的一面。", dimension: "Optimism", isReverse: false },
+  { id: 19, text: "我充满信心地追求自己的目标。", dimension: "Hope", isReverse: false },
+  { id: 20, text: "我觉得社会上好人还是占绝大多数。", dimension: "Optimism", isReverse: false },
+  { id: 21, text: "对自己的学习和生活，我有一定的规划。", dimension: "Hope", isReverse: false },
+  { id: 22, text: "大多数的时候，我都是意气风发的。", dimension: "Optimism", isReverse: false },
+  { id: 23, text: "我很清楚自己想要什么样的生活。", dimension: "Hope", isReverse: false },
+  { id: 24, text: "我觉得生活是美好的。", dimension: "Optimism", isReverse: false },
+  { id: 25, text: "我也不知道自己的生活目标是什么。", dimension: "Hope", isReverse: true },
+  { id: 26, text: "我觉得前途充满希望。", dimension: "Optimism", isReverse: false },
+];
+
+export const OPTIONS: Option[] = [
+  { value: 1, label: "完全不符合" },
+  { value: 2, label: "比较不符合" },
+  { value: 3, label: "有点不符合" },
+  { value: 4, label: "说不清" },
+  { value: 5, label: "有点符合" },
+  { value: 6, label: "比较符合" },
+  { value: 7, label: "完全符合" },
+];
